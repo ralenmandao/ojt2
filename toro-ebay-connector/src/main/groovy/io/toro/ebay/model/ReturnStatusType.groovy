@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum ReturnStatusType {
+	CLOSED,ESCALATED,ITEM_DELIVERED,ITEM_SHIPPED,READY_FOR_SHIPPING,UNKNOWN,WAITING_FOR_SELLER_INFO;
+}

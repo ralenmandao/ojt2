@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum PickupStatusCodeType {
+	CustomCode,Invalid,NotApplicable,PendingMerchantConfirmation,Pickedup,PickupCancelled,PickupCancelledBuyerNoShow,PickupCancelledBuyerRejected,PickupCancelledOutOfStock,ReadyToPickup;
+}

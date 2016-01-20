@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum ItemFilterType {
+	AuthorizedSellerOnly,AvailableTo,BestOfferOnly,CharityOnly,Condition,Currency,EndTimeFrom,EndTimeTo,ExcludeAutoPay,ExcludeCategory,ExcludeSeller,ExpeditedShippingType,FeaturedOnly,FeedbackScoreMax,FeedbackScoreMin,FreeShippingOnly,GetItFastOnly,HideDuplicateItems,ListedIn,ListingType,LocalPickupOnly,LocalSearchOnly,LocatedIn,LotsOnly,MaxBids,MaxDistance,MaxHandlingTime,MaxPrice,MaxQuantity,MinBids,MinPrice,MinQuantity,ModTimeFrom,OutletSellerOnly,PaymentMethod,ReturnsAcceptedOnly,Seller,SellerBusinessType,SoldItemsOnly,StartTimeFrom,StartTimeTo,TopRatedSellerOnly,ValueBoxInventory,WorldOfGoodOnly;
+}

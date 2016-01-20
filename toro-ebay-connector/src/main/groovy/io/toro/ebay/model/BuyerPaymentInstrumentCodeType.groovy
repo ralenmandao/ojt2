@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum BuyerPaymentInstrumentCodeType {
+	BankDirectDebit,BML,CreditCard,CustomCode,ELV,GIROPAY,LocalPaymentAMEX,LocalPaymentCreditCardOther,LocalPaymentDinersclub,LocalPaymentDiscover,LocalPaymentELV,LocalPaymentJCB,LocalPaymentMasterCard,LocalPaymentSOLO,LocalPaymentSWITCH,LocalPaymentVISA,None,PayPal,PayUponInvoice;
+}

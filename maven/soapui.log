@@ -1,0 +1,28 @@
+2015-12-16 09:10:16,308 WARN  [SoapUI] Missing folder [/Users/ralen.mandap/Documents/WORKSPACESTSTEST/maven/ext] for external libraries
+2015-12-16 09:10:16,521 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/ralen.mandap/soapui-settings.xml]
+2015-12-16 09:10:17,221 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2015-12-16 09:10:17,250 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2015-12-16 09:10:17,252 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2015-12-16 09:10:17,254 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2015-12-16 09:10:17,255 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2015-12-16 09:10:17,256 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2015-12-16 09:10:17,258 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2015-12-16 09:10:17,263 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2015-12-16 09:10:17,265 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2015-12-16 09:10:17,268 INFO  [SchemaUtils] Added default schema from file:/Users/ralen.mandap/.m2/repository/com/smartbear/soapui/soapui/5.1.0/soapui-5.1.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2015-12-16 09:10:17,840 INFO  [SchemaUtils] Loading schema types from [http://developer.ebay.com/webservices/finding/latest/FindingService.wsdl]
+2015-12-16 09:10:17,840 INFO  [SchemaUtils] Getting schema http://developer.ebay.com/webservices/finding/latest/FindingService.wsdl
+2015-12-16 09:10:18,151 INFO  [WsdlImporter] Finding importer for {http://www.ebay.com/marketplace/search/v1/services}FindingServiceSOAPBinding
+2015-12-16 09:10:18,228 INFO  [WsdlImporter] Importing binding {http://www.ebay.com/marketplace/search/v1/services}FindingServiceSOAPBinding
+2015-12-16 09:10:18,251 INFO  [Soap11HttpBindingImporter] importing endpoint https://svcs.ebay.com/services/search/FindingService/v1
+2015-12-16 09:10:18,288 INFO  [Soap11HttpBindingImporter] importing operation findCompletedItems
+2015-12-16 09:10:18,303 INFO  [Soap11HttpBindingImporter] importing operation findItemsAdvanced
+2015-12-16 09:10:18,304 INFO  [Soap11HttpBindingImporter] importing operation findItemsByCategory
+2015-12-16 09:10:18,304 INFO  [Soap11HttpBindingImporter] importing operation findItemsByImage
+2015-12-16 09:10:18,305 INFO  [Soap11HttpBindingImporter] importing operation findItemsByKeywords
+2015-12-16 09:10:18,305 INFO  [Soap11HttpBindingImporter] importing operation findItemsByProduct
+2015-12-16 09:10:18,305 INFO  [Soap11HttpBindingImporter] importing operation findItemsForFavoriteSearch
+2015-12-16 09:10:18,306 INFO  [Soap11HttpBindingImporter] importing operation findItemsIneBayStores
+2015-12-16 09:10:18,306 INFO  [Soap11HttpBindingImporter] importing operation getHistograms
+2015-12-16 09:10:18,307 INFO  [Soap11HttpBindingImporter] importing operation getSearchKeywordsRecommendation
+2015-12-16 09:10:18,308 INFO  [Soap11HttpBindingImporter] importing operation getVersion

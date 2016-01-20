@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum BuyerPaymentMethodCodeType {
+	AmEx,CashInPerson,CashOnPickup,CCAccepted,COD,CODPrePayDelivery,CreditCard,CustomCode,Diners,DirectDebit,Discover,ELV,Escrow,IntegratedMerchantCreditCard,LoanCheck,MOCC,Moneybookers,MoneyXferAccepted,MoneyXferAcceptedInCheckout,None,Other,OtherOnlinePayments,PaisaPayAccepted,PaisaPayEscrow,PaisaPayEscrowEMI,Paymate,PaymentSeeDescription,PayOnPickup,PayPal,PayPalCredit,PayUponInvoice,PersonalCheck,PostalTransfer,PrePayDelivery,ProPay,VisaMC;
+}

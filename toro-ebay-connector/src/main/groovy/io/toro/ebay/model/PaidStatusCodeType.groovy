@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum PaidStatusCodeType {
+	BuyerHasNotCompletedCheckout,CustomCode,EscrowPaymentCancelled,MarkedAsPaid,NotPaid,Paid,PaidCOD,PaidWithEscrow,PaidWithPaisaPay,PaidWithPaisaPayEscrow,PaidWithPayPal,PaisaPayNotPaid,PaymentPending,PaymentPendingWithEscrow,PaymentPendingWithPaisaPay,PaymentPendingWithPaisaPayEscrow,PaymentPendingWithPayPal,PayUponInvoice,Refunded,WaitingForCODPayment;
+}

@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum CancelStatusCodeType {
+	CancelClosedForCommitment,CancelClosedNoRefund,CancelClosedUnknownRefund,CancelClosedWithRefund,CancelComplete,CancelFailed,CancelPending,CancelRejected,CancelRequested,CustomCode,Invalid,NotApplicable;
+}

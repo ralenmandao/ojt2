@@ -1,0 +1,9 @@
+<HTML>
+<BODY>
+Hello $customer.Name!
+<table>
+#set ( $products = $searcher.search('en_name_s:**', false).products)
+#foreach($product in $products)
+
+#
+</table>

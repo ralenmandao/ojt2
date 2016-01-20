@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum ReturnCaseStatusType {
+	CLOSED,CLOSED_FVFCREDIT_STRIKE,CS_CLOSED,EXPIRED,MY_RESPONSE_DUE,OTHER,OTHER_PARTY_RESPONSE_DUE;
+}

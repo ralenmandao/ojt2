@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum CharitySellerStatusCodeType {
+	Closed,CreditCardAboutToExpire,CreditCardExpired,CustomCode,NotRegisteredLostDirectSellerStatus,Registered,RegisteredDirectSeller,RegisteredNoPaymentMethod,Suspended,TokenExpired;
+}

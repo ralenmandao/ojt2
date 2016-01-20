@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum SellerINREscalationReasonType {
+	BUYER_STILL_UNHAPPY_AFTER_REFUND,ITEM_SHIPPED_WITH_TRACKING,OTHER,TROUBLE_COMMUNICATION_WITH_BUYER;
+}

@@ -1,0 +1,360 @@
+public static FindCompletedItemsResponse test(String key, FindCompletedItemsRequest request){
+	contactEbayFindingAPI('app', 'findCompletedItems', request, FindCompletedItemsResponse)
+}
+public static FindItemsAdvancedResponse test(String key, FindItemsAdvancedRequest request){
+	contactEbayFindingAPI('app', 'findItemsAdvanced', request, FindItemsAdvancedResponse)
+}
+public static FindItemsByCategoryResponse test(String key, FindItemsByCategoryRequest request){
+	contactEbayFindingAPI('app', 'findItemsByCategory', request, FindItemsByCategoryResponse)
+}
+public static FindItemsByImageResponse test(String key, FindItemsByImageRequest request){
+	contactEbayFindingAPI('app', 'findItemsByImage', request, FindItemsByImageResponse)
+}
+public static FindItemsByKeywordsResponse test(String key, FindItemsByKeywordsRequest request){
+	contactEbayFindingAPI('app', 'findItemsByKeywords', request, FindItemsByKeywordsResponse)
+}
+public static FindItemsByProductResponse test(String key, FindItemsByProductRequest request){
+	contactEbayFindingAPI('app', 'findItemsByProduct', request, FindItemsByProductResponse)
+}
+public static FindItemsIneBayStoresResponse test(String key, FindItemsIneBayStoresRequest request){
+	contactEbayFindingAPI('app', 'findItemsIneBayStores', request, FindItemsIneBayStoresResponse)
+}
+public static GetHistogramsResponse test(String key, GetHistogramsRequest request){
+	contactEbayFindingAPI('app', 'getHistograms', request, GetHistogramsResponse)
+}
+public static GetSearchKeywordsRecommendationResponse test(String key, GetSearchKeywordsRecommendationRequest request){
+	contactEbayFindingAPI('app', 'getSearchKeywordsRecommendation', request, GetSearchKeywordsRecommendationResponse)
+}
+public static GetVersionResponse test(String key, GetVersionRequest request){
+	contactEbayFindingAPI('app', 'getVersion', request, GetVersionResponse)
+}
+public static GetMostWatchedItemsResponse test(String key, GetMostWatchedItemsRequest request){
+	contactEbayMerchandisingAPI('app', 'getMostWatchedItems', request, GetMostWatchedItemsResponse)
+}
+public static GetRelatedCategoryItemsResponse test(String key, GetRelatedCategoryItemsRequest request){
+	contactEbayMerchandisingAPI('app', 'getRelatedCategoryItems', request, GetRelatedCategoryItemsResponse)
+}
+public static GetSimilarItemsResponse test(String key, GetSimilarItemsRequest request){
+	contactEbayMerchandisingAPI('app', 'getSimilarItems', request, GetSimilarItemsResponse)
+}
+public static GetTopSellingProductsResponse test(String key, GetTopSellingProductsRequest request){
+	contactEbayMerchandisingAPI('app', 'getTopSellingProducts', request, GetTopSellingProductsResponse)
+}
+public static GetVersionResponse test(String key, GetVersionRequest request){
+	contactEbayMerchandisingAPI('app', 'getVersion', request, GetVersionResponse)
+}
+public static FindHalfProductsResponse test(String key, FindHalfProductsRequest request){
+	contactEbayShoppingAPI('app', 'findHalfProducts', request, FindHalfProductsResponse)
+}
+public static FindPopularItemsResponse test(String key, FindPopularItemsRequest request){
+	contactEbayShoppingAPI('app', 'findPopularItems', request, FindPopularItemsResponse)
+}
+public static FindPopularSearchesResponse test(String key, FindPopularSearchesRequest request){
+	contactEbayShoppingAPI('app', 'findPopularSearches', request, FindPopularSearchesResponse)
+}
+public static FindProductsResponse test(String key, FindProductsRequest request){
+	contactEbayShoppingAPI('app', 'findProducts', request, FindProductsResponse)
+}
+public static FindReviewsAndGuidesResponse test(String key, FindReviewsAndGuidesRequest request){
+	contactEbayShoppingAPI('app', 'findReviewsAndGuides', request, FindReviewsAndGuidesResponse)
+}
+public static GetCategoryInfoResponse test(String key, GetCategoryInfoRequest request){
+	contactEbayShoppingAPI('app', 'getCategoryInfo', request, GetCategoryInfoResponse)
+}
+public static GeteBayTimeResponse test(String key, GeteBayTimeRequest request){
+	contactEbayShoppingAPI('app', 'geteBayTime', request, GeteBayTimeResponse)
+}
+public static GetItemStatusResponse test(String key, GetItemStatusRequest request){
+	contactEbayShoppingAPI('app', 'getItemStatus', request, GetItemStatusResponse)
+}
+public static GetMultipleItemsResponse test(String key, GetMultipleItemsRequest request){
+	contactEbayShoppingAPI('app', 'getMultipleItems', request, GetMultipleItemsResponse)
+}
+public static GetShippingCostsResponse test(String key, GetShippingCostsRequest request){
+	contactEbayShoppingAPI('app', 'getShippingCosts', request, GetShippingCostsResponse)
+}
+public static GetSingleItemResponse test(String key, GetSingleItemRequest request){
+	contactEbayShoppingAPI('app', 'getSingleItem', request, GetSingleItemResponse)
+}
+public static GetUserProfileResponse test(String key, GetUserProfileRequest request){
+	contactEbayShoppingAPI('app', 'getUserProfile', request, GetUserProfileResponse)
+}
+public static ActiveInventoryReportResponse test(String key, ActiveInventoryReportRequest request){
+	contactEbayMerchantdataAPI('app', 'activeInventoryReport', request, ActiveInventoryReportResponse)
+}
+public static FeeSettlementReportResponse test(String key, FeeSettlementReportRequest request){
+	contactEbayMerchantdataAPI('app', 'feeSettlementReport', request, FeeSettlementReportResponse)
+}
+public static OrderAckResponse test(String key, OrderAckRequest request){
+	contactEbayMerchantdataAPI('app', 'orderAck', request, OrderAckResponse)
+}
+public static OrderReportResponse test(String key, OrderReportRequest request){
+	contactEbayMerchantdataAPI('app', 'orderReport', request, OrderReportResponse)
+}
+public static SetShipmentTrackingInfoResponse test(String key, SetShipmentTrackingInfoRequest request){
+	contactEbayMerchantdataAPI('app', 'setShipmentTrackingInfo', request, SetShipmentTrackingInfoResponse)
+}
+public static SoldReportResponse test(String key, SoldReportRequest request){
+	contactEbayMerchantdataAPI('app', 'soldReport', request, SoldReportResponse)
+}
+public static AbortJobResponse test(String key, AbortJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'abortJob', request, AbortJobResponse)
+}
+public static AbortRecurringJobExecutionResponse test(String key, AbortRecurringJobExecutionRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'abortRecurringJobExecution', request, AbortRecurringJobExecutionResponse)
+}
+public static ActivateRecurringJobResponse test(String key, ActivateRecurringJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'activateRecurringJob', request, ActivateRecurringJobResponse)
+}
+public static CreateRecurringJobResponse test(String key, CreateRecurringJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'createRecurringJob', request, CreateRecurringJobResponse)
+}
+public static CreateUploadJobResponse test(String key, CreateUploadJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'createUploadJob', request, CreateUploadJobResponse)
+}
+public static DeleteRecurringJobResponse test(String key, DeleteRecurringJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'deleteRecurringJob', request, DeleteRecurringJobResponse)
+}
+public static GetJobsResponse test(String key, GetJobsRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'getJobs', request, GetJobsResponse)
+}
+public static GetJobStatusResponse test(String key, GetJobStatusRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'getJobStatus', request, GetJobStatusResponse)
+}
+public static GetRecurringJobExecutionHistoryResponse test(String key, GetRecurringJobExecutionHistoryRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'getRecurringJobExecutionHistory', request, GetRecurringJobExecutionHistoryResponse)
+}
+public static GetRecurringJobExecutionStatusResponse test(String key, GetRecurringJobExecutionStatusRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'getRecurringJobExecutionStatus', request, GetRecurringJobExecutionStatusResponse)
+}
+public static GetRecurringJobsResponse test(String key, GetRecurringJobsRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'getRecurringJobs', request, GetRecurringJobsResponse)
+}
+public static StartDownloadJobResponse test(String key, StartDownloadJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'startDownloadJob', request, StartDownloadJobResponse)
+}
+public static StartUploadJobResponse test(String key, StartUploadJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'startUploadJob', request, StartUploadJobResponse)
+}
+public static SuspendRecurringJobResponse test(String key, SuspendRecurringJobRequest request){
+	contactEbayBulkdataexchangeAPI('app', 'suspendRecurringJob', request, SuspendRecurringJobResponse)
+}
+public static DownloadFileResponse test(String key, DownloadFileRequest request){
+	contactEbayFiletransferAPI('app', 'downloadFile', request, DownloadFileResponse)
+}
+public static UploadFileResponse test(String key, UploadFileRequest request){
+	contactEbayFiletransferAPI('app', 'uploadFile', request, UploadFileResponse)
+}
+public static AddSellerProfileResponse test(String key, AddSellerProfileRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'addSellerProfile', request, AddSellerProfileResponse)
+}
+public static ConsolidateShippingProfilesResponse test(String key, ConsolidateShippingProfilesRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'consolidateShippingProfiles', request, ConsolidateShippingProfilesResponse)
+}
+public static GetConsolidationJobStatusResponse test(String key, GetConsolidationJobStatusRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'getConsolidationJobStatus', request, GetConsolidationJobStatusResponse)
+}
+public static GetSellerProfilesResponse test(String key, GetSellerProfilesRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'getSellerProfiles', request, GetSellerProfilesResponse)
+}
+public static GetVersionResponse test(String key, GetVersionRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'getVersion', request, GetVersionResponse)
+}
+public static RemoveOverridesResponse test(String key, RemoveOverridesRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'removeOverrides', request, RemoveOverridesResponse)
+}
+public static RemoveProfileResponse test(String key, RemoveProfileRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'removeProfile', request, RemoveProfileResponse)
+}
+public static RemoveSellerProfilesResponse test(String key, RemoveSellerProfilesRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'removeSellerProfiles', request, RemoveSellerProfilesResponse)
+}
+public static SetSellerProfileResponse test(String key, SetSellerProfileRequest request){
+	contactEbayBusinesspoliciesAPI('app', 'setSellerProfile', request, SetSellerProfileResponse)
+}
+public static ItemRecommendationsResponse test(String key, ItemRecommendationsRequest request){
+	contactEbayListingrecommendationAPI('app', 'itemRecommendations', request, ItemRecommendationsResponse)
+}
+public static LatestVersionResponse test(String key, LatestVersionRequest request){
+	contactEbayListingrecommendationAPI('app', 'latestVersion', request, LatestVersionResponse)
+}
+public static RecommendationItemIdsResponse test(String key, RecommendationItemIdsRequest request){
+	contactEbayListingrecommendationAPI('app', 'recommendationItemIds', request, RecommendationItemIdsResponse)
+}
+public static RecommendationsSummaryResponse test(String key, RecommendationsSummaryRequest request){
+	contactEbayListingrecommendationAPI('app', 'recommendationsSummary', request, RecommendationsSummaryResponse)
+}
+public static CreateBundlesResponse test(String key, CreateBundlesRequest request){
+	contactEbayRelateditemsAPI('app', 'createBundles', request, CreateBundlesResponse)
+}
+public static DeleteBundlesResponse test(String key, DeleteBundlesRequest request){
+	contactEbayRelateditemsAPI('app', 'deleteBundles', request, DeleteBundlesResponse)
+}
+public static DeleteBundlesByStatusResponse test(String key, DeleteBundlesByStatusRequest request){
+	contactEbayRelateditemsAPI('app', 'deleteBundlesByStatus', request, DeleteBundlesByStatusResponse)
+}
+public static FindBundlesResponse test(String key, FindBundlesRequest request){
+	contactEbayRelateditemsAPI('app', 'findBundles', request, FindBundlesResponse)
+}
+public static GetBundlesResponse test(String key, GetBundlesRequest request){
+	contactEbayRelateditemsAPI('app', 'getBundles', request, GetBundlesResponse)
+}
+public static GetVersionResponse test(String key, GetVersionRequest request){
+	contactEbayRelateditemsAPI('app', 'getVersion', request, GetVersionResponse)
+}
+public static UpdateBundlesResponse test(String key, UpdateBundlesRequest request){
+	contactEbayRelateditemsAPI('app', 'updateBundles', request, UpdateBundlesResponse)
+}
+public static UpdateBundleStatusResponse test(String key, UpdateBundleStatusRequest request){
+	contactEbayRelateditemsAPI('app', 'updateBundleStatus', request, UpdateBundleStatusResponse)
+}
+public static GetPublicAlertsResponse test(String key, GetPublicAlertsRequest request){
+	contactEbayClientalertsAPI('app', 'getPublicAlerts', request, GetPublicAlertsResponse)
+}
+public static GetUserAlertsResponse test(String key, GetUserAlertsRequest request){
+	contactEbayClientalertsAPI('app', 'getUserAlerts', request, GetUserAlertsResponse)
+}
+public static LoginResponse test(String key, LoginRequest request){
+	contactEbayClientalertsAPI('app', 'login', request, LoginResponse)
+}
+public static LogoutResponse test(String key, LogoutRequest request){
+	contactEbayClientalertsAPI('app', 'logout', request, LogoutResponse)
+}
+public static CreateDSRSummaryByCategoryResponse test(String key, CreateDSRSummaryByCategoryRequest request){
+	contactEbayFeedbackAPI('app', 'createDSRSummaryByCategory', request, CreateDSRSummaryByCategoryResponse)
+}
+public static CreateDSRSummaryByPeriodResponse test(String key, CreateDSRSummaryByPeriodRequest request){
+	contactEbayFeedbackAPI('app', 'createDSRSummaryByPeriod', request, CreateDSRSummaryByPeriodResponse)
+}
+public static CreateDSRSummaryByShippingDetailResponse test(String key, CreateDSRSummaryByShippingDetailRequest request){
+	contactEbayFeedbackAPI('app', 'createDSRSummaryByShippingDetail', request, CreateDSRSummaryByShippingDetailResponse)
+}
+public static CreateDSRSummaryByTransactionResponse test(String key, CreateDSRSummaryByTransactionRequest request){
+	contactEbayFeedbackAPI('app', 'createDSRSummaryByTransaction', request, CreateDSRSummaryByTransactionResponse)
+}
+public static GetDSRSummaryResponse test(String key, GetDSRSummaryRequest request){
+	contactEbayFeedbackAPI('app', 'getDSRSummary', request, GetDSRSummaryResponse)
+}
+public static AddProductsResponse test(String key, AddProductsRequest request){
+	contactEbayProductAPI('app', 'addProducts', request, AddProductsResponse)
+}
+public static FindCompatibilitiesBySpecificationResponse test(String key, FindCompatibilitiesBySpecificationRequest request){
+	contactEbayProductAPI('app', 'findCompatibilitiesBySpecification', request, FindCompatibilitiesBySpecificationResponse)
+}
+public static FindProductsResponse test(String key, FindProductsRequest request){
+	contactEbayProductAPI('app', 'findProducts', request, FindProductsResponse)
+}
+public static FindProductsByCompatibilityResponse test(String key, FindProductsByCompatibilityRequest request){
+	contactEbayProductAPI('app', 'findProductsByCompatibility', request, FindProductsByCompatibilityResponse)
+}
+public static GetProductCompatibilitiesResponse test(String key, GetProductCompatibilitiesRequest request){
+	contactEbayProductAPI('app', 'getProductCompatibilities', request, GetProductCompatibilitiesResponse)
+}
+public static GetProductDetailsResponse test(String key, GetProductDetailsRequest request){
+	contactEbayProductAPI('app', 'getProductDetails', request, GetProductDetailsResponse)
+}
+public static GetProductSubmissionsResponse test(String key, GetProductSubmissionsRequest request){
+	contactEbayProductAPI('app', 'getProductSubmissions', request, GetProductSubmissionsResponse)
+}
+public static GetCompatibilitySearchDataVersionResponse test(String key, GetCompatibilitySearchDataVersionRequest request){
+	contactEbayProductmetadataAPI('app', 'getCompatibilitySearchDataVersion', request, GetCompatibilitySearchDataVersionResponse)
+}
+public static GetCompatibilitySearchNamesResponse test(String key, GetCompatibilitySearchNamesRequest request){
+	contactEbayProductmetadataAPI('app', 'getCompatibilitySearchNames', request, GetCompatibilitySearchNamesResponse)
+}
+public static GetCompatibilitySearchValuesResponse test(String key, GetCompatibilitySearchValuesRequest request){
+	contactEbayProductmetadataAPI('app', 'getCompatibilitySearchValues', request, GetCompatibilitySearchValuesResponse)
+}
+public static GetCompatibilitySearchValuesBulkResponse test(String key, GetCompatibilitySearchValuesBulkRequest request){
+	contactEbayProductmetadataAPI('app', 'getCompatibilitySearchValuesBulk', request, GetCompatibilitySearchValuesBulkResponse)
+}
+public static GetProductMetadataBulkResponse test(String key, GetProductMetadataBulkRequest request){
+	contactEbayProductmetadataAPI('app', 'getProductMetadataBulk', request, GetProductMetadataBulkResponse)
+}
+public static GetProductSearchDataVersionResponse test(String key, GetProductSearchDataVersionRequest request){
+	contactEbayProductmetadataAPI('app', 'getProductSearchDataVersion', request, GetProductSearchDataVersionResponse)
+}
+public static GetProductSearchNamesResponse test(String key, GetProductSearchNamesRequest request){
+	contactEbayProductmetadataAPI('app', 'getProductSearchNames', request, GetProductSearchNamesResponse)
+}
+public static GetProductSearchValuesResponse test(String key, GetProductSearchValuesRequest request){
+	contactEbayProductmetadataAPI('app', 'getProductSearchValues', request, GetProductSearchValuesResponse)
+}
+public static GetProductSearchValuesBulkResponse test(String key, GetProductSearchValuesBulkRequest request){
+	contactEbayProductmetadataAPI('app', 'getProductSearchValuesBulk', request, GetProductSearchValuesBulkResponse)
+}
+public static GetActivityOptionsResponse test(String key, GetActivityOptionsRequest request){
+	contactEbayReturnmanagementAPI('app', 'getActivityOptions', request, GetActivityOptionsResponse)
+}
+public static GetReturnDetailResponse test(String key, GetReturnDetailRequest request){
+	contactEbayReturnmanagementAPI('app', 'getReturnDetail', request, GetReturnDetailResponse)
+}
+public static GetReturnMetadataResponse test(String key, GetReturnMetadataRequest request){
+	contactEbayReturnmanagementAPI('app', 'getReturnMetadata', request, GetReturnMetadataResponse)
+}
+public static GetUserReturnsResponse test(String key, GetUserReturnsRequest request){
+	contactEbayReturnmanagementAPI('app', 'getUserReturns', request, GetUserReturnsResponse)
+}
+public static GetVersionResponse test(String key, GetVersionRequest request){
+	contactEbayReturnmanagementAPI('app', 'getVersion', request, GetVersionResponse)
+}
+public static IssueRefundResponse test(String key, IssueRefundRequest request){
+	contactEbayReturnmanagementAPI('app', 'issueRefund', request, IssueRefundResponse)
+}
+public static ProvideSellerInfoResponse test(String key, ProvideSellerInfoRequest request){
+	contactEbayReturnmanagementAPI('app', 'provideSellerInfo', request, ProvideSellerInfoResponse)
+}
+public static ProvideTrackingInfoResponse test(String key, ProvideTrackingInfoRequest request){
+	contactEbayReturnmanagementAPI('app', 'provideTrackingInfo', request, ProvideTrackingInfoResponse)
+}
+public static SetItemAsReceivedResponse test(String key, SetItemAsReceivedRequest request){
+	contactEbayReturnmanagementAPI('app', 'setItemAsReceived', request, SetItemAsReceivedResponse)
+}
+public static AppealToCustomerSupportResponse test(String key, AppealToCustomerSupportRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'appealToCustomerSupport', request, AppealToCustomerSupportResponse)
+}
+public static EscalateToCustomerSupportResponse test(String key, EscalateToCustomerSupportRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'escalateToCustomerSupport', request, EscalateToCustomerSupportResponse)
+}
+public static GetActivityOptionsResponse test(String key, GetActivityOptionsRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'getActivityOptions', request, GetActivityOptionsResponse)
+}
+public static GetEBPCaseDetailResponse test(String key, GetEBPCaseDetailRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'getEBPCaseDetail', request, GetEBPCaseDetailResponse)
+}
+public static GetUserCasesResponse test(String key, GetUserCasesRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'getUserCases', request, GetUserCasesResponse)
+}
+public static GetVersionResponse test(String key, GetVersionRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'getVersion', request, GetVersionResponse)
+}
+public static IssueFullRefundResponse test(String key, IssueFullRefundRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'issueFullRefund', request, IssueFullRefundResponse)
+}
+public static IssuePartialRefundResponse test(String key, IssuePartialRefundRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'issuePartialRefund', request, IssuePartialRefundResponse)
+}
+public static OfferOtherSolutionResponse test(String key, OfferOtherSolutionRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'offerOtherSolution', request, OfferOtherSolutionResponse)
+}
+public static OfferPartialRefundResponse test(String key, OfferPartialRefundRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'offerPartialRefund', request, OfferPartialRefundResponse)
+}
+public static OfferRefundUponReturnResponse test(String key, OfferRefundUponReturnRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'offerRefundUponReturn', request, OfferRefundUponReturnResponse)
+}
+public static ProvideRefundInfoResponse test(String key, ProvideRefundInfoRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'provideRefundInfo', request, ProvideRefundInfoResponse)
+}
+public static ProvideReturnInfoResponse test(String key, ProvideReturnInfoRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'provideReturnInfo', request, ProvideReturnInfoResponse)
+}
+public static ProvideShippingInfoResponse test(String key, ProvideShippingInfoRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'provideShippingInfo', request, ProvideShippingInfoResponse)
+}
+public static ProvideTrackingInfoResponse test(String key, ProvideTrackingInfoRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'provideTrackingInfo', request, ProvideTrackingInfoResponse)
+}
+public static UploadDocumentsResponse test(String key, UploadDocumentsRequest request){
+	contactEbayResolutioncasemanagementAPI('app', 'uploadDocuments', request, UploadDocumentsResponse)
+}

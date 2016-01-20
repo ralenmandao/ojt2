@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum ShippingPackageCodeType {
+	BulkyGoods,Caravan,Cars,CustomCode,Europallet,ExpandableToughBags,ExtraLargePack,Furniture,IndustryVehicles,LargeCanadaPostBox,LargeCanadaPostBubbleMailer,LargeEnvelope,Letter,MailingBoxes,MediumCanadaPostBox,MediumCanadaPostBubbleMailer,Motorbikes,None,OneWayPallet,PackageThickEnvelope,PaddedBags,ParcelOrPaddedEnvelope,Roll,SmallCanadaPostBox,SmallCanadaPostBubbleMailer,ToughBags,UPSLetter,USPSFlatRateEnvelope,USPSLargePack,VeryLargePack,Winepak;
+}

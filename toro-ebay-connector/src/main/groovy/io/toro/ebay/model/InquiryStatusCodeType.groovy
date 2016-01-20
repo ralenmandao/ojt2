@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum InquiryStatusCodeType {
+	CustomCode,Invalid,NotApplicable,TrackInquiryClosedNoRefund,TrackInquiryClosedWithRefund,TrackInquiryEscalatedClosedNoRefund,TrackInquiryEscalatedClosedWithRefund,TrackInquiryEscalatedPendingBuyer,TrackInquiryEscalatedPendingCS,TrackInquiryEscalatedPendingSeller,TrackInquiryPendingBuyerResponse,TrackInquiryPendingSellerResponse;
+}

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ECC()
+comment0.text=\r\n\ Instantiates\ a\ new\ ecc.\r\n
+comment1.params=c\ x\ y\ nA
+comment1.target=ECC(ECC.Curve,\ java.math.BigInteger,\ java.math.BigInteger,\ java.math.BigInteger)
+comment1.text=\r\n\ Instantiates\ a\ new\ ecc.\r\n\r\n\ @param\ c\ the\ c\r\n\ @param\ x\ the\ x\r\n\ @param\ y\ the\ y\r\n\ @param\ nA\ the\ n\ a\r\n
+comment2.params=plain\ k
+comment2.target=ECC.Point[]\ encrypt(ECC.Point,\ java.math.BigInteger)
+comment2.text=\r\n\ Encrypt.\r\n\r\n\ @param\ plain\ the\ plain\r\n\ @param\ k\ the\ k\r\n\ @return\ the\ point[]\r\n
+comment3.params=cipher
+comment3.target=ECC.Point\ decrypt(ECC.Point[])
+comment3.text=\r\n\ Decrypt.\r\n\r\n\ @param\ cipher\ the\ cipher\r\n\ @return\ the\ point\r\n
+comment4.params=
+comment4.target=void\ Process()
+comment4.text=\r\n\ Read\ input,\ process\ input\ and\ write\ ouput\r\n\r\n\ @throws\ FileNotFoundException\ the\ file\ not\ found\ exception\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ The\ main\ method.\r\n\r\n\ @param\ args\ the\ arguments\r\n
+numComments=6

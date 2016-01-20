@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum MessageTypeCodeType {
+	All,AskSellerQuestion,ContactEbayMember,ContacteBayMemberViaCommunityLink,ContactMyBidder,ContactTransactionPartner,CustomCode,ResponseToASQQuestion,ResponseToContacteBayMember;
+}

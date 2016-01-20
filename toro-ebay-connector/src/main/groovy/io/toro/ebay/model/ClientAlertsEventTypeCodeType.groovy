@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum ClientAlertsEventTypeCodeType {
+	AskSellerQuestion,BestOffer,BestOfferDeclined,BestOfferPlaced,BidPlaced,BidReceived,CounterOfferReceived,CustomCode,EndOfAuction,FeedbackLeft,FeedbackReceived,FeedbackStarChanged,FixedPriceEndOfTransaction,FixedPriceTransaction,ItemAddedToWatchList,ItemEnded,ItemListed,ItemLost,ItemMarkedPaid,ItemMarkedShipped,ItemRemovedFromWatchList,ItemSold,ItemUnsold,ItemWon,OutBid,PriceChange,SecondChanceOffer,WatchedItemEndingSoon;
+}

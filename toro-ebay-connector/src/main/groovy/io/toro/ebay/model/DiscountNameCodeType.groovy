@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum DiscountNameCodeType {
+	CombinedItemWeight,CustomCode,EachAdditionalAmount,EachAdditionalAmountOff,EachAdditionalPercentOff,IndividualItemWeight,MaximumShippingCostPerOrder,ShippingCostXForAmountY,ShippingCostXForItemCountN,WeightOff;
+}

@@ -1,0 +1,5 @@
+package io.toro.ebay.model
+
+public enum ReturnStatusCodeType {
+	CustomCode,Invalid,NotApplicable,ReturnClosedEscalated,ReturnClosedNoRefund,ReturnClosedWithRefund,ReturnDelivered,ReturnEscalated,ReturnEscalatedClosedNoRefund,ReturnEscalatedClosedWithRefund,ReturnEscalatedPendingBuyer,ReturnEscalatedPendingCS,ReturnEscalatedPendingSeller,ReturnOpen,ReturnRequestClosedNoRefund,ReturnRequestClosedWithRefund,ReturnRequestPending,ReturnRequestPendingApproval,ReturnRequestRejected,ReturnShipped;
+}
