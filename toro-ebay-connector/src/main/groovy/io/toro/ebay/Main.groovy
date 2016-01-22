@@ -1,10 +1,7 @@
 package io.toro.ebay
 
 import io.toro.ebay.connector.EbayConnector
-import io.toro.ebay.model.finding.FindCompletedItemsRequest
-import io.toro.ebay.model.finding.FindCompletedItemsResponse
-import io.toro.ebay.model.finding.FindItemsAdvancedRequest
-import io.toro.ebay.model.finding.FindItemsAdvancedResponse
+import io.toro.ebay.model.merchandising.GetMostWatchedItemsRequest
 
 import javax.xml.bind.annotation.*
 import javax.xml.transform.OutputKeys
@@ -27,42 +24,46 @@ import com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector
 
 class Main {
 	private static ObjectMapper mapper
-	
-		static {
-			// configure jackson and enable it to use Jackson and JAXB annotations on our beans
-			if ( mapper == null ) {
-				mapper = new ObjectMapper()
-				mapper.setAnnotationIntrospector( AnnotationIntrospector.pair(
-						new JacksonAnnotationIntrospector(),
-						new JaxbAnnotationIntrospector( TypeFactory.defaultInstance() ) )
-				)
-			}
+
+	static {
+		// configure jackson and enable it to use Jackson and JAXB annotations on our beans
+		if ( mapper == null ) {
+			mapper = new ObjectMapper()
+			mapper.setAnnotationIntrospector( AnnotationIntrospector.pair(
+			new JacksonAnnotationIntrospector(),
+			new JaxbAnnotationIntrospector( TypeFactory.defaultInstance() ) )
+			)
 		}
-		
-		static def apiModels = [
-			'http://developer.ebay.com/Devzone/finding/CallRef/types/',
-			'http://developer.ebay.com/Devzone/merchandising/docs/CallRef/types/',
-			'http://developer.ebay.com/Devzone/shopping/docs/CallRef/types/',
-			'http://developer.ebay.com/DevZone/merchant-data/CallRef/types/',
-			'http://developer.ebay.com/DevZone/bulk-data-exchange/CallRef/types/',
-			'http://developer.ebay.com/DevZone/file-transfer/CallRef/types/',
-			'http://developer.ebay.com/Devzone/business-policies/CallRef/types/',
-			'http://developer.ebay.com/Devzone/related-items/CallRef/types/',
-			'http://developer.ebay.com/Devzone/client-alerts/docs/CallRef/types/',
-			'http://developer.ebay.com/Devzone/feedback/CallRef/types/',
-			'http://developer.ebay.com/Devzone/product/CallRef/types/',
-			'http://developer.ebay.com/Devzone/product-metadata/CallRef/types/',
-			'http://developer.ebay.com/Devzone/resolution-case-management/CallRef/types/',
-			'http://developer.ebay.com/Devzone/listing-recommendation/CallRef/types/',
-			'http://developer.ebay.com/Devzone/return-management/CallRef/types/'
-		]
-	
-	static main(args){
-		FindCompletedItemsResponse resp = EbayConnector.test('app', new FindCompletedItemsRequest(categoryId: [156955], keywords: 'Garmin nuvi 1300 Automotive GPS Receiver'));
-		println resp;
-		FindItemsAdvancedResponse resp1 = EbayConnector.test('app', new FindItemsAdvancedRequest(keywords: 'tolkien'))
-		println resp1;
 	}
+
+	static def apiModels = [
+		'http://developer.ebay.com/Devzone/finding/CallRef/types/',
+		'http://developer.ebay.com/Devzone/merchandising/docs/CallRef/types/',
+		'http://developer.ebay.com/Devzone/shopping/docs/CallRef/types/',
+		'http://developer.ebay.com/DevZone/merchant-data/CallRef/types/',
+		'http://developer.ebay.com/DevZone/bulk-data-exchange/CallRef/types/',
+		'http://developer.ebay.com/DevZone/file-transfer/CallRef/types/',
+		'http://developer.ebay.com/Devzone/business-policies/CallRef/types/',
+		'http://developer.ebay.com/Devzone/related-items/CallRef/types/',
+		'http://developer.ebay.com/Devzone/client-alerts/docs/CallRef/types/',
+		'http://developer.ebay.com/Devzone/feedback/CallRef/types/',
+		'http://developer.ebay.com/Devzone/product/CallRef/types/',
+		'http://developer.ebay.com/Devzone/product-metadata/CallRef/types/',
+		'http://developer.ebay.com/Devzone/resolution-case-management/CallRef/types/',
+		'http://developer.ebay.com/Devzone/listing-recommendation/CallRef/types/',
+		'http://developer.ebay.com/Devzone/return-management/CallRef/types/'
+	]
+
+	static main(args){
+		//		FindCompletedItemsResponse resp = EbayConnector.test('app', new FindCompletedItemsRequest(categoryId: [156955], keywords: 'Garmin nuvi 1300 Automotive GPS Receiver'));
+		//		println resp;
+		//		FindItemsAdvancedResponse resp1 = EbayConnector.test('app', new FindItemsAdvancedRequest(keywords: 'tolkien'))
+		//		println resp1;
+		//		println EbayConnector.test('app', new FindItemsByProductRequest(productId: new ProductId(type: 'ReferenceID', value: '53039031')))
+		//		println EbayConnector.test('app', new FindItemsIneBayStoresRequest(keywords: 'FASHION', storeName: "bargainmanila", outputSelector: [OutputSelectorType.StoreInfo]))
+        //		println EbayConnector.test('app', new FindItemsIneBayStoresRequest(keywords: 'FASHION', storeName: "bargainmanila", outputSelector: [OutputSelectorType.StoreInfo]))
+				println EbayConnector.test('app', new GetMostWatchedItemsRequest())
+		}
 	
 	
 	static void doSomething(){

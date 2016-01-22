@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlAccessType
 import javax.xml.bind.annotation.XmlAccessorType
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement
+import javax.xml.bind.annotation.XmlValue;
 
 @ToString(includeNames=true)
 @XmlAccessorType( XmlAccessType.FIELD )
@@ -13,4 +14,6 @@ import javax.xml.bind.annotation.XmlRootElement
 public class ProductId {
 	@XmlAttribute
 	String type;
+	@XmlValue
+	String value;
 }

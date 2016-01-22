@@ -74,28 +74,32 @@ public class NewAction implements IObjectActionDelegate {
 		String error = "";
 		String source = unit.getSource();
 
-		String newSource = Pattern.compile("(\\w+|\\W+)\\+(\\w+|\\W+)").matcher(source).replaceAll("$1 + $2");
-		newSource = Pattern.compile("(\\w+),(\\w+)").matcher(newSource).replaceAll("$1, $2");
+//		String newSource = Pattern.compile("(\\w+|\\W+)\\+(\\w+|\\W+)").matcher(source).replaceAll("$1 + $2");
+//		newSource = Pattern.compile("(\\w+),(\\w+)").matcher(newSource).replaceAll("$1, $2");
+//
+//		for (IType type : unit.getTypes()) {
+//			for (IField field : type.getFields()) {
+//				if (field.getElementName().contains("_")) {
+//					error += "Error field " + field.getElementName() + " contains (underscore) at "
+//							+ unit.getElementName() + "\n";
+//				}
+//			}
+//		}
 
-		for (IType type : unit.getTypes()) {
-			for (IField field : type.getFields()) {
-				if (field.getElementName().contains("_")) {
-					error += "Error field " + field.getElementName() + " contains (underscore) at "
-							+ unit.getElementName() + "\n";
-				}
-			}
-		}
+//		newSource = newSource.replaceAll("(?m)[\\s+&&[^\\n]]+$", "");
 
-		newSource = newSource.replaceAll("(?m)[\\s+&&[^\\n]]+$", "");
-
-		unit.getBuffer().setContents(newSource);
+		source = Pattern.compile("[ \t]int ").matcher(source).replaceAll("Integer");
+		
+		unit.getBuffer().setContents(source);
 		unit.commit(true, null);
-
-		error += "Finished fixing...";
-
-		if (error.length() > 0) {
-			MessageDialog.openInformation(shell, "Fixed", error);
-		}
+		
+		System.out.println("awe");
+//
+//		error += "Finished fixing...";
+//
+//		if (error.length() > 0) {
+//			MessageDialog.openInformation(shell, "Fixed", error);
+//		}
 	}
 
 	/**
